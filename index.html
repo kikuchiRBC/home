@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>SSW Monster Quest</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:Poppins,"Yu Gothic",sans-serif;
+
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.65)),
+url("images/background.jpg");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
+min-height:100vh;
+
+color:white;
+
+}
+
+.overlay{
+
+width:100%;
+padding:60px 30px;
+
+}
+
+h1{
+
+font-size:64px;
+text-align:center;
+
+font-weight:700;
+
+letter-spacing:3px;
+
+color:#ffe16d;
+
+text-shadow:
+0 0 15px gold,
+0 0 30px orange,
+3px 3px 10px black;
+
+margin-bottom:15px;
+
+}
+
+.subtitle{
+
+text-align:center;
+
+font-size:22px;
+
+margin-bottom:60px;
+
+opacity:.95;
+
+}
+
+.menu{
+
+max-width:1200px;
+
+margin:auto;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:35px;
+
+}
+
+.card{
+
+backdrop-filter:blur(12px);
+
+background:rgba(255,255,255,.10);
+
+border:1px solid rgba(255,255,255,.3);
+
+border-radius:25px;
+
+padding:30px;
+
+text-align:center;
+
+transition:.35s;
+
+box-shadow:
+
+0 15px 35px rgba(0,0,0,.35);
+
+}
+
+.card:hover{
+
+transform:translateY(-10px) scale(1.03);
+
+box-shadow:
+
+0 25px 45px rgba(0,0,0,.45);
+
+background:rgba(255,255,255,.16);
+
+}
+
+.card img{
+
+width:300px;
+
+height:300px;
+
+object-fit:contain;
+
+margin-bottom:20px;
+
+transition:.4s;
+
+}
+
+.card:hover img{
+
+transform:scale(1.08);
+
+}
+
+.card h3{
+
+font-size:30px;
+
+margin-bottom:15px;
+
+}
+
+.card p{
+
+font-size:18px;
+
+line-height:1.8;
+
+opacity:.95;
+
+min-height:80px;
+
+}
+
+.button{
+
+display:inline-block;
+
+margin-top:25px;
+
+padding:15px 45px;
+
+font-size:22px;
+
+font-weight:bold;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:50px;
+
+background:linear-gradient(45deg,#ff9800,#ff5722);
+
+box-shadow:
+
+0 0 20px rgba(255,140,0,.6);
+
+transition:.3s;
+
+}
+
+.button:hover{
+
+transform:scale(1.08);
+
+box-shadow:
+
+0 0 35px orange;
+
+}
+
+.footer{
+
+margin-top:70px;
+
+text-align:center;
+
+font-size:14px;
+
+opacity:.7;
+
+}
+
+@media(max-width:700px){
+
+h1{
+
+font-size:42px;
+
+}
+
+.subtitle{
+
+font-size:18px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="overlay">
+
+<h1>⚔ SSW JLPT GAME ⚔</h1>
+
+<div class="subtitle">
+
+無料（むりょう）で 楽（たの）しく 日本語（にほんご）を 勉強（べんきょう）しよう！
+
+</div>
+
+<div class="menu">
+
+<div class="card">
+
+<img src="images/1.png">
+
+<h3>🧹 ビルクリーニング</h3>
+
+<p>
+
+
+専門用語（せんもんようご）を覚えよう！
+
+</p>
+
+<a href="https://kikuchirbc.github.io/cleaning/" class="button">
+
+START
+
+</a>
+
+</div>
+
+<div class="card">
+
+<img src="images/start.jpg">
+
+<h3>🐉 特定技能クエスト</h3>
+
+<p>
+
+RPGで楽しく<br>
+
+特定技能（とくていぎのう）を学ぼう！
+
+</p>
+
+<a href="monsterquest/index.html" class="button">
+
+START
+
+</a>
+
+</div>
+
+<div class="card">
+
+<img src="images/2.png">
+
+<h3>📚 JLPT QUEST</h3>
+
+<p>
+
+語彙（ごい）・文法（ぶんぽう）を<br>
+
+ゲーム感覚（かんかく）で学ぼう！
+
+</p>
+
+<a href="https://kikuchirbc.github.io/rbc/" class="button">
+
+START
+
+</a>
+
+</div>
+
+<div class="card">
+
+<img src="images/3.png">
+
+<h3>🐬シャチ育成ゲーム</h3>
+
+<p>
+
+小学1年生の問題を解いて<br>
+
+シャチを育てよう！
+
+</p>
+
+<a href="https://kikuchirbc.github.io/orca/" class="button">
+START
+</a>
+
+</div>
+</div></div>
+
+
+<div class="footer">
+
+© SSW Monster Quest
+
+</div>
+
+</div>
+
+</body>
+</html>
